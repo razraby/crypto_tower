@@ -566,7 +566,7 @@ export default function App() {
         <div className="min-h-0 flex-1 flex flex-col lg:flex-row overflow-hidden relative">
           
           {/* Interactive Help / Puzzle Panel (Left Column - Gothic Stone Architecture Style) */}
-          <div className="w-full lg:w-[390px] xl:w-[410px] border-b-4 lg:border-b-0 lg:border-r-4 border-[#1e2d4a] flex flex-col bg-gothic-950 shrink-0 overflow-hidden shadow-2xl relative z-10">
+          <div className="w-full lg:basis-[clamp(520px,48vw,860px)] lg:shrink-0 border-b-4 lg:border-b-0 lg:border-r-4 border-[#1e2d4a] flex flex-col bg-gothic-950 overflow-hidden shadow-2xl relative z-10">
             
             {/* Header of helper panel (Iron plate with silver/blue title) */}
             <div className="h-14 bg-gradient-to-b from-[#121d33] to-[#0a1120] border-b border-parchment-900/40 px-5 flex items-center justify-between shrink-0 select-none">
@@ -1400,10 +1400,10 @@ export default function App() {
           <div className="min-w-0 flex-1 flex flex-col overflow-hidden bg-[#070b12] relative z-0">
             
             {/* Upper area with beautiful gothic wooden desk layout */}
-            <div className="min-h-0 flex-1 p-2 overflow-hidden flex items-center justify-start relative">
+            <div className="min-h-0 flex-1 p-2 overflow-hidden flex items-stretch justify-stretch relative">
               
               {/* Cozy Room Chamber border Frame */}
-              <div className="h-full w-full max-w-[740px] bg-[#1a1009] border-4 border-[#6f4a25]/70 rounded-xl p-2 shadow-2xl relative overflow-hidden">
+              <div className="h-full w-full min-w-0 bg-[#1a1009] border-4 border-[#6f4a25]/70 rounded-xl p-2 shadow-2xl relative overflow-hidden">
                 
                 {/* Iron rivet details on study frame */}
                 <div className="absolute top-2 left-2 w-2 h-2 rounded-full bg-sky-400/50"></div>
@@ -1666,7 +1666,7 @@ export default function App() {
             {/* ----------------------------------------------------
                 Chronological actions log console (Ledger Book Look)
                ---------------------------------------------------- */}
-            <div className="h-28 shrink-0 bg-[#040810] p-3 font-serif text-xs overflow-y-auto space-y-1 select-text border-t-2 border-[#1e2d4a]">
+            <div className="h-44 shrink-0 bg-[#040810] p-3 font-serif text-xs overflow-y-auto space-y-1 select-text border-t-2 border-[#1e2d4a]">
               <span className="text-[10px] font-display uppercase font-bold text-parchment-600 block mb-1.5 tracking-wider">
                 Летопись действий в башне:
               </span>

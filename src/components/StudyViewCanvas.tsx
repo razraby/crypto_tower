@@ -132,6 +132,26 @@ function drawImageFixedHeight(
   ctx.restore();
 }
 
+function drawImageCropped(
+  ctx: CanvasRenderingContext2D,
+  img: HTMLImageElement | undefined,
+  sx: number,
+  sy: number,
+  sw: number,
+  sh: number,
+  x: number,
+  y: number,
+  w: number,
+  h: number,
+  alpha = 1,
+) {
+  if (!img?.complete || !img.naturalWidth) return;
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.drawImage(img, sx, sy, sw, sh, x, y, w, h);
+  ctx.restore();
+}
+
 function drawHitOutline(ctx: CanvasRenderingContext2D, zone: { x: number; y: number; w: number; h: number }, active: boolean, solved = false) {
   void ctx;
   void zone;
@@ -743,13 +763,17 @@ export default function StudyViewCanvas({
         ctx.drawImage(images.chandelier, 292, -44, 400, 190);
         ctx.restore();
       }
-      drawChandelierFlames(ctx, frame, images.chandelier, 292, -44, 400, 190);
+      void drawChandelierFlames;
 
       drawPainting(ctx, activeRiddle === 'vigenere', vigenereSolved);
       drawDoor(ctx, activeRiddle, scytaleSolved);
 
       drawHitOutline(ctx, HIT_ZONES.cabinet, cabinetOpen || activeRiddle === 'scytale', strapTaken);
-      drawImageFixedHeight(ctx, cabinetOpen ? images.closetOpened : images.closetClosed, 192, 452, 276, cabinetOpen ? 198 : 212);
+      if (cabinetOpen) {
+        drawImageCropped(ctx, images.closetOpened, 0, 0, 512, 811, 78, 150, 232, 304);
+      } else {
+        drawImageCropped(ctx, images.closetClosed, 122, 70, 476, 821, 78, 150, 232, 304);
+      }
       if (cabinetOpen && !strapTaken) {
         ctx.save();
         ctx.strokeStyle = '#7a4a22';
