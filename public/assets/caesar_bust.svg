@@ -1,0 +1,62 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Vintage marble bust of Julius Caesar</title>
+  <desc>A polished no-outline SVG bust of Julius Caesar in warm marble, with a profile nose, laurel wreath, toga folds, and a small classical pedestal.</desc>
+  <defs>
+    <linearGradient id="marble" x1="118" y1="46" x2="385" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0CA"/>
+      <stop offset="0.52" stop-color="#D6C098"/>
+      <stop offset="1" stop-color="#9F8152"/>
+    </linearGradient>
+    <linearGradient id="shadowMarble" x1="114" y1="166" x2="378" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8D5AA"/>
+      <stop offset="1" stop-color="#8A6B3E"/>
+    </linearGradient>
+    <linearGradient id="laurel" x1="122" y1="74" x2="364" y2="162" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9D8A48"/>
+      <stop offset="1" stop-color="#4F5427"/>
+    </linearGradient>
+    <linearGradient id="base" x1="104" y1="362" x2="407" y2="484" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C1A26A"/>
+      <stop offset="1" stop-color="#6B4A26"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <path d="M139 418H371L390 470H120L139 418Z" fill="url(#base)"/>
+    <path d="M101 459H409L388 496H122L101 459Z" fill="#6B4A26"/>
+    <path d="M149 376C180 343 218 330 264 337C306 343 341 359 368 389L354 431H157L149 376Z" fill="url(#shadowMarble)"/>
+
+    <path d="M216 288C227 317 249 336 282 344C264 362 221 363 192 344C176 334 167 320 164 303L216 288Z" fill="#BFA77C"/>
+    <path d="M190 306C214 289 245 287 282 301L317 375H168L190 306Z" fill="url(#marble)"/>
+
+    <path d="M164 350C195 362 239 361 263 340C286 361 329 362 361 350C342 393 306 417 263 418C220 417 184 393 164 350Z" fill="#E9D7B2"/>
+    <path d="M226 344C238 381 246 401 263 417C278 397 289 377 303 344C281 358 249 358 226 344Z" fill="#C6AA7A"/>
+    <path d="M188 365C208 386 229 400 250 407" stroke="#A88855" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+    <path d="M335 365C313 387 293 400 273 407" stroke="#A88855" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+
+    <path d="M174 156C178 100 222 61 282 68C329 74 361 108 369 153C391 159 404 172 405 190C407 208 395 219 375 223C370 256 350 281 321 296C283 316 237 307 209 272C186 244 175 207 174 156Z" fill="url(#marble)"/>
+    <path d="M358 155C388 159 411 173 423 193C407 199 390 200 371 193C363 183 359 170 358 155Z" fill="#D0B78C"/>
+    <path d="M347 211C341 230 328 245 308 254" stroke="#8D744D" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+    <path d="M314 273C288 286 261 287 236 276" stroke="#BCA173" stroke-width="9" stroke-linecap="round" opacity="0.45"/>
+    <ellipse cx="319" cy="153" rx="8" ry="6" fill="#4A3520"/>
+    <path d="M333 185C344 188 354 187 363 181" stroke="#5B432B" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M174 159C190 104 232 76 300 77C284 93 267 107 248 118C225 132 202 145 174 159Z" fill="#5B432B"/>
+    <path d="M199 112C237 79 301 69 347 104" stroke="#6A5533" stroke-width="12" stroke-linecap="round"/>
+
+    <g fill="url(#laurel)">
+      <ellipse cx="188" cy="127" rx="24" ry="9" transform="rotate(-42 188 127)"/>
+      <ellipse cx="210" cy="103" rx="23" ry="9" transform="rotate(-28 210 103)"/>
+      <ellipse cx="239" cy="88" rx="23" ry="9" transform="rotate(-14 239 88)"/>
+      <ellipse cx="270" cy="82" rx="23" ry="9" transform="rotate(2 270 82)"/>
+      <ellipse cx="301" cy="88" rx="23" ry="9" transform="rotate(18 301 88)"/>
+      <ellipse cx="330" cy="106" rx="23" ry="9" transform="rotate(35 330 106)"/>
+      <ellipse cx="351" cy="132" rx="22" ry="8" transform="rotate(52 351 132)"/>
+    </g>
+    <path d="M181 139C218 89 297 71 357 138" stroke="#6C6231" stroke-width="7" stroke-linecap="round"/>
+
+    <path d="M217 146C220 177 212 211 193 247" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.22"/>
+    <path d="M273 91C311 101 337 126 352 166" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.18"/>
+    <path d="M143 430H369" stroke="#F3D9A2" stroke-width="6" stroke-linecap="round" opacity="0.25"/>
+  </g>
+</svg>

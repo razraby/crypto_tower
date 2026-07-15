@@ -1,0 +1,6 @@
+{
+  "name": "Кабинет шифров: Побег из башни",
+  "description": "Атмосферная point-and-click демо-игра в жанре escape room. Расшифруй послания старого криптографа, собери код от двери и покинь башню до полуночи.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

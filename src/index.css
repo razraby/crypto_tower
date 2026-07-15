@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Ubuntu", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Ubuntu", Georgia, serif;
+  --font-display: "Ubuntu", sans-serif;
+  --font-mono: "Ubuntu Mono", ui-monospace, monospace;
+
+  --color-parchment-50: #f0f4f8;
+  --color-parchment-100: #d9e2ec;
+  --color-parchment-200: #bcccdc;
+  --color-parchment-300: #9fb3c8;
+  --color-parchment-400: #829ab1;
+  --color-parchment-500: #627d98;
+  --color-parchment-600: #486581;
+  --color-parchment-700: #334e68;
+  --color-parchment-800: #243e56;
+  --color-parchment-900: #102a43;
+  --color-parchment-950: #0b1a30;
+
+  --color-gothic-950: #060a13;
+  --color-gothic-900: #0a1120;
+  --color-gothic-800: #121d33;
+  --color-gothic-700: #1e2d4a;
+  --color-gothic-600: #2d3f61;
+  --color-gothic-500: #40557a;
+}
+
+@keyframes candleFlicker {
+  0%, 100% { opacity: 0.95; transform: scale(1) translateX(0); filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.6)); }
+  25% { opacity: 1; transform: scale(1.04) translateX(0.5px); filter: drop-shadow(0 0 10px rgba(96, 165, 250, 0.8)); }
+  50% { opacity: 0.85; transform: scale(0.96) translateX(-0.5px); filter: drop-shadow(0 0 6px rgba(59, 130, 246, 0.5)); }
+  75% { opacity: 1.05; transform: scale(1.08) translateX(0.2px); filter: drop-shadow(0 0 12px rgba(147, 197, 253, 0.9)); }
+}
+
+@keyframes roomGlow {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.25; }
+}
+
+.animate-candle {
+  animation: candleFlicker 2.5s infinite ease-in-out;
+}
+
+.animate-room-glow {
+  animation: roomGlow 5s infinite ease-in-out;
+}
+
+.medieval-dropcap::first-letter {
+  font-family: "MedievalSharp", serif;
+  font-size: 3.25rem;
+  float: left;
+  line-height: 1;
+  padding-right: 0.5rem;
+  padding-top: 0.2rem;
+  color: #627d98;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a1120;
+  border-left: 1px solid #1e2d4a;
+}
+::-webkit-scrollbar-thumb {
+  background: #243e56;
+  border: 2px solid #0a1120;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #627d98;
+}
