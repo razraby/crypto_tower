@@ -1,0 +1,144 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Wide vintage hanging chandelier</title>
+  <desc>A warm minimal SVG illustration of a wide vintage hanging chandelier with seven candles, curled golden arms, glass cups, and softly animated flames.</desc>
+  <defs>
+    <linearGradient id="gold" x1="90" y1="38" x2="630" y2="575" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7B86D"/>
+      <stop offset="0.48" stop-color="#9C742E"/>
+      <stop offset="1" stop-color="#65461B"/>
+    </linearGradient>
+    <linearGradient id="goldLight" x1="170" y1="110" x2="550" y2="545" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7CB85"/>
+      <stop offset="1" stop-color="#8A6124"/>
+    </linearGradient>
+    <linearGradient id="candle" x1="70" y1="190" x2="650" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2CE"/>
+      <stop offset="1" stop-color="#D6C19A"/>
+    </linearGradient>
+    <radialGradient id="glass" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 332) rotate(90) scale(70 300)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.72"/>
+      <stop offset="0.58" stop-color="#D6DEE0" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#98A7AA" stop-opacity="0.15"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 300) rotate(90) scale(210 335)">
+      <stop stop-color="#F3C266" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#F3C266" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="flame" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 12) rotate(90) scale(28 18)">
+      <stop stop-color="#FFE8A1"/>
+      <stop offset="0.56" stop-color="#F5A43A"/>
+      <stop offset="1" stop-color="#C65B24"/>
+    </radialGradient>
+    <style>
+      image { image-rendering: auto; }
+      .flame-gif {
+        transform-box: fill-box;
+        transform-origin: 50% 88%;
+        animation: flame-sway 0.85s ease-in-out infinite alternate;
+      }
+      .flame-gif:nth-of-type(2n) { animation-duration: 1.05s; }
+      .flame-gif:nth-of-type(3n) { animation-duration: 0.72s; }
+      @keyframes flame-sway {
+        0% { transform: translateX(-2px) rotate(-3deg) scaleX(0.9) scaleY(1.08); opacity: 0.86; }
+        55% { transform: translateX(3px) rotate(4deg) scaleX(1.13) scaleY(0.94); opacity: 1; }
+        100% { transform: translateX(-1px) rotate(-1deg) scaleX(0.98) scaleY(1.16); opacity: 0.92; }
+      }
+    </style>
+  </defs>
+<ellipse cx="360" cy="304" rx="316" ry="220" fill="url(#glow)"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <g fill="none" stroke="url(#gold)" stroke-width="12">
+      <path d="M360 22C350 38 350 55 360 70C370 55 370 38 360 22Z"/>
+      <path d="M360 64V114"/>
+      <path d="M344 88C351 104 369 104 376 88"/>
+    </g>
+
+    <path d="M322 112C338 91 382 91 398 112C386 131 334 131 322 112Z" fill="url(#goldLight)"/>
+    <path d="M336 129H384L374 156H346L336 129Z" fill="url(#gold)"/>
+    <path d="M318 158C344 144 376 144 402 158C391 174 329 174 318 158Z" fill="url(#goldLight)"/>
+
+    <path d="M343 170H377V292H343V170Z" fill="url(#gold)"/>
+    <path d="M350 176C369 200 369 228 350 253C369 268 373 285 360 300C384 273 383 229 363 202C348 183 350 176 350 176Z" fill="#E0C078" opacity="0.36"/>
+    <path d="M323 282H397C393 308 379 323 360 323C341 323 327 308 323 282Z" fill="url(#goldLight)"/>
+
+    <g fill="none" stroke="url(#gold)" stroke-width="12">
+      <path d="M357 314C292 278 225 292 185 342C153 382 111 397 61 379"/>
+      <path d="M363 314C428 278 495 292 535 342C567 382 609 397 659 379"/>
+      <path d="M351 337C295 317 244 331 219 371C198 405 166 418 129 402"/>
+      <path d="M369 337C425 317 476 331 501 371C522 405 554 418 591 402"/>
+      <path d="M344 351C307 332 272 340 252 369C236 392 211 400 184 389"/>
+      <path d="M376 351C413 332 448 340 468 369C484 392 509 400 536 389"/>
+    </g>
+
+    <g fill="none" stroke="url(#gold)" stroke-width="7.5">
+      <path d="M154 348C181 340 193 357 177 376C166 389 146 383 154 367C160 356 178 357 180 374"/>
+      <path d="M566 348C539 340 527 357 543 376C554 389 574 383 566 367C560 356 542 357 540 374"/>
+      <path d="M238 362C261 354 273 371 258 387C248 398 231 392 238 379C243 369 258 371 260 385"/>
+      <path d="M482 362C459 354 447 371 462 387C472 398 489 392 482 379C477 369 462 371 460 385"/>
+      <path d="M303 338C282 333 272 347 283 361C293 373 310 367 306 353"/>
+      <path d="M417 338C438 333 448 347 437 361C427 373 410 367 414 353"/>
+      <path d="M326 304C306 302 298 315 309 326C318 334 331 330 327 319"/>
+      <path d="M394 304C414 302 422 315 411 326C402 334 389 330 393 319"/>
+    </g>
+
+    <g fill="url(#goldLight)">
+      <path d="M38 371H120C115 394 99 407 79 407C59 407 43 394 38 371Z"/>
+      <path d="M133 336H205C200 357 186 370 169 370C152 370 138 357 133 336Z"/>
+      <path d="M234 329H306C301 352 287 365 270 365C253 365 239 352 234 329Z"/>
+      <path d="M321 338H399C394 362 379 376 360 376C341 376 326 362 321 338Z"/>
+      <path d="M414 329H486C481 352 467 365 450 365C433 365 419 352 414 329Z"/>
+      <path d="M515 336H587C582 357 568 370 551 370C534 370 520 357 515 336Z"/>
+      <path d="M600 371H682C677 394 661 407 641 407C621 407 605 394 600 371Z"/>
+    </g>
+
+    <g fill="url(#glass)">
+      <path d="M28 349C50 362 108 362 130 349C121 376 37 376 28 349Z"/>
+      <path d="M125 315C144 327 194 327 213 315C206 339 132 339 125 315Z"/>
+      <path d="M225 306C244 319 296 319 315 306C307 332 233 332 225 306Z"/>
+      <path d="M305 315C331 331 389 331 415 315C406 345 314 345 305 315Z"/>
+      <path d="M405 306C424 319 476 319 495 306C487 332 413 332 405 306Z"/>
+      <path d="M507 315C526 327 576 327 595 315C588 339 514 339 507 315Z"/>
+      <path d="M590 349C612 362 670 362 692 349C683 376 599 376 590 349Z"/>
+    </g>
+
+    <g fill="url(#candle)">
+      <rect x="57" y="292" width="44" height="82" rx="11"/>
+      <rect x="150" y="256" width="38" height="82" rx="10"/>
+      <rect x="250" y="246" width="40" height="86" rx="10"/>
+      <rect x="335" y="250" width="50" height="90" rx="12"/>
+      <rect x="430" y="246" width="40" height="86" rx="10"/>
+      <rect x="532" y="256" width="38" height="82" rx="10"/>
+      <rect x="619" y="292" width="44" height="82" rx="11"/>
+    </g>
+
+    <g fill="#F2DFB6" opacity="0.5">
+      <path d="M64 300C73 306 85 306 94 300V320C85 326 73 326 64 320V300Z"/>
+      <path d="M157 264C165 269 173 269 181 264V284C173 289 165 289 157 284V264Z"/>
+      <path d="M258 254C266 259 274 259 282 254V276C274 281 266 281 258 276V254Z"/>
+      <path d="M343 258C354 265 366 265 377 258V281C366 288 354 288 343 281V258Z"/>
+      <path d="M438 254C446 259 454 259 462 254V276C454 281 446 281 438 276V254Z"/>
+      <path d="M539 264C547 269 555 269 563 264V284C555 289 547 289 539 284V264Z"/>
+      <path d="M626 300C635 306 647 306 656 300V320C647 326 635 326 626 320V300Z"/>
+    </g>
+
+    <g fill="url(#gold)">
+      <path d="M314 376H406C402 403 384 419 360 419C336 419 318 403 314 376Z"/>
+      <path d="M338 409H382V462H338V409Z"/>
+      <path d="M322 455H398C394 481 379 496 360 496C341 496 326 481 322 455Z"/>
+      <path d="M340 489H380C377 511 370 524 360 524C350 524 343 511 340 489Z"/>
+      <path d="M349 520C356 529 364 529 371 520C370 538 364 550 360 555C356 550 350 538 349 520Z"/>
+    </g>
+
+    <g fill="#E4C77E" opacity="0.36">
+      <ellipse cx="79" cy="371" rx="42" ry="8"/>
+      <ellipse cx="169" cy="336" rx="38" ry="7"/>
+      <ellipse cx="270" cy="329" rx="38" ry="7"/>
+      <ellipse cx="360" cy="338" rx="45" ry="8"/>
+      <ellipse cx="450" cy="329" rx="38" ry="7"/>
+      <ellipse cx="551" cy="336" rx="38" ry="7"/>
+      <ellipse cx="641" cy="371" rx="42" ry="8"/>
+      <ellipse cx="360" cy="466" rx="38" ry="9"/>
+    </g>
+  </g>
+</svg>

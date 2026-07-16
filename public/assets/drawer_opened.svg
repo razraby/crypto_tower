@@ -1,0 +1,53 @@
+﻿<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Minimal vintage nightstand with open drawer</title>
+  <desc>A clean no-outline SVG illustration of a vintage wooden nightstand with matching drawers and the upper drawer open.</desc>
+  <defs>
+    <linearGradient id="body" x1="205" y1="112" x2="515" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A87542"/>
+      <stop offset="1" stop-color="#62401F"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="240" y1="220" x2="480" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8844E"/>
+      <stop offset="1" stop-color="#704824"/>
+    </linearGradient>
+    <linearGradient id="drawer" x1="236" y1="246" x2="484" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7834B"/>
+      <stop offset="1" stop-color="#6B421F"/>
+    </linearGradient>
+    <linearGradient id="inside" x1="236" y1="218" x2="484" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#392617"/>
+      <stop offset="1" stop-color="#1F1712"/>
+    </linearGradient>
+    <linearGradient id="darkWood" x1="175" y1="500" x2="545" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#744820"/>
+      <stop offset="1" stop-color="#4D2F17"/>
+    </linearGradient>
+  </defs>
+<g>
+    <path d="M190 176H530V584C530 604 514 620 494 620H226C206 620 190 604 190 584V176Z" fill="url(#body)"/>
+    <path d="M165 154H555L536 196H184L165 154Z" fill="url(#darkWood)"/>
+    <path d="M185 193C242 205 306 205 360 192C414 205 478 205 535 193V226H185V193Z" fill="#6E431F"/>
+
+    <rect x="214" y="222" width="292" height="142" rx="3" fill="url(#inside)"/>
+    <path d="M248 248H472V334H248V248Z" fill="#2A1D14" opacity="0.36"/>
+
+    <path d="M230 292H490V416L230 442V292Z" fill="url(#drawer)"/>
+    <path d="M266 324C266 304 284 292 309 292H411C436 292 454 304 454 324V374C454 394 436 407 411 407H309C284 407 266 394 266 374V324Z" fill="#825229"/>
+    <path d="M296 333C296 321 305 314 319 314H401C415 314 424 321 424 333V365C424 377 415 384 401 384H319C305 384 296 377 296 365V333Z" fill="#A06C38" opacity="0.36"/>
+    <rect x="354" y="360" width="12" height="34" rx="6" fill="#2F2118" opacity="0.7"/>
+    <circle cx="360" cy="402" r="7" fill="#2F2118" opacity="0.7"/>
+
+    <path d="M214 438H506V582H214V438Z" fill="url(#panel)"/>
+    <path d="M266 478C266 452 288 437 318 437H402C432 437 454 452 454 478V536C454 562 432 578 402 578H318C288 578 266 562 266 536V478Z" fill="#825229"/>
+    <path d="M296 486C296 470 307 461 323 461H397C413 461 424 470 424 486V528C424 544 413 553 397 553H323C307 553 296 544 296 528V486Z" fill="#A06C38" opacity="0.36"/>
+    <rect x="354" y="504" width="12" height="34" rx="6" fill="#2F2118" opacity="0.72"/>
+    <circle cx="360" cy="546" r="7" fill="#2F2118" opacity="0.72"/>
+
+    <path d="M178 606H542L522 642H198L178 606Z" fill="url(#darkWood)"/>
+    <path d="M215 638C221 624 238 620 254 629C250 649 237 660 216 660H202L215 638Z" fill="#4D2F17"/>
+    <path d="M505 638C499 624 482 620 466 629C470 649 483 660 504 660H518L505 638Z" fill="#4D2F17"/>
+
+    <rect x="214" y="218" width="34" height="390" rx="2" fill="#7A4D25" opacity="0.42"/>
+    <rect x="472" y="218" width="34" height="390" rx="2" fill="#7A4D25" opacity="0.42"/>
+  </g>
+</svg>

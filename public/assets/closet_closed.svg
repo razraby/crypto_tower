@@ -1,0 +1,57 @@
+﻿<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Minimal vintage cabinet</title>
+  <desc>A clean no-outline SVG illustration of a wider vintage wooden cabinet with a curved crown, paneled doors, lower panels, small handles, and feet.</desc>
+  <defs>
+    <linearGradient id="body" x1="178" y1="82" x2="542" y2="878" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A87542"/>
+      <stop offset="1" stop-color="#62401F"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="230" y1="220" x2="490" y2="825" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8844E"/>
+      <stop offset="1" stop-color="#704824"/>
+    </linearGradient>
+    <linearGradient id="darkWood" x1="130" y1="620" x2="590" y2="890" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#744820"/>
+      <stop offset="1" stop-color="#4D2F17"/>
+    </linearGradient>
+  </defs>
+<g>
+    <path d="M154 184H566V816C566 832 553 845 537 845H183C167 845 154 832 154 816V184Z" fill="url(#body)"/>
+
+    <path d="M122 162C191 162 230 142 270 110C321 70 399 70 450 110C490 142 529 162 598 162L580 193H140L122 162Z" fill="url(#body)"/>
+    <path d="M153 192C217 192 253 175 293 145C333 115 387 115 427 145C467 175 503 192 567 192L557 207H163L153 192Z" fill="#6B431F" opacity="0.42"/>
+
+    <rect x="178" y="210" width="43" height="407" rx="2" fill="#7A4D25" opacity="0.52"/>
+    <rect x="499" y="210" width="43" height="407" rx="2" fill="#7A4D25" opacity="0.52"/>
+
+    <path d="M228 210H358V616H228V210Z" fill="url(#panel)"/>
+    <path d="M362 210H492V616H362V210Z" fill="url(#panel)"/>
+    <path d="M264 290C304 276 320 244 358 229V578H264V290Z" fill="#8B5A2D"/>
+    <path d="M456 290C416 276 400 244 362 229V578H456V290Z" fill="#8B5A2D"/>
+
+    <path d="M282 315H337V535H282V315Z" fill="#A06C38" opacity="0.38"/>
+    <path d="M383 315H438V535H383V315Z" fill="#A06C38" opacity="0.38"/>
+
+    <path d="M178 616C244 637 324 633 360 616C396 633 476 637 542 616V656H178V616Z" fill="#6E431F"/>
+
+    <path d="M190 656H358V828H190V656Z" fill="url(#panel)"/>
+    <path d="M362 656H530V828H362V656Z" fill="url(#panel)"/>
+    <path d="M245 719C245 691 266 674 294 674C322 674 343 691 343 719V773C343 800 322 815 294 815C266 815 245 800 245 773V719Z" fill="#825229"/>
+    <path d="M475 719C475 691 454 674 426 674C398 674 377 691 377 719V773C377 800 398 815 426 815C454 815 475 800 475 773V719Z" fill="#825229"/>
+    <path d="M266 722C266 705 277 695 294 695C311 695 322 705 322 722V769C322 786 311 794 294 794C277 794 266 786 266 769V722Z" fill="#A06C38" opacity="0.36"/>
+    <path d="M454 722C454 705 443 695 426 695C409 695 398 705 398 722V769C398 786 409 794 426 794C443 794 454 786 454 769V722Z" fill="#A06C38" opacity="0.36"/>
+
+    <path d="M132 830H588L566 874H154L132 830Z" fill="url(#darkWood)"/>
+    <path d="M166 870C173 854 193 849 214 859C208 880 193 891 167 891H150L166 870Z" fill="#4D2F17"/>
+    <path d="M554 870C547 854 527 849 506 859C512 880 527 891 553 891H570L554 870Z" fill="#4D2F17"/>
+
+    <rect x="350" y="364" width="5" height="76" rx="2.5" fill="#2F2118" opacity="0.72"/>
+    <rect x="365" y="364" width="5" height="76" rx="2.5" fill="#2F2118" opacity="0.72"/>
+    <circle cx="352.5" cy="448" r="4.5" fill="#2F2118" opacity="0.72"/>
+    <circle cx="367.5" cy="448" r="4.5" fill="#2F2118" opacity="0.72"/>
+    <rect x="350" y="728" width="5" height="50" rx="2.5" fill="#2F2118" opacity="0.72"/>
+    <rect x="365" y="728" width="5" height="50" rx="2.5" fill="#2F2118" opacity="0.72"/>
+    <circle cx="352.5" cy="786" r="4.5" fill="#2F2118" opacity="0.72"/>
+    <circle cx="367.5" cy="786" r="4.5" fill="#2F2118" opacity="0.72"/>
+  </g>
+</svg>

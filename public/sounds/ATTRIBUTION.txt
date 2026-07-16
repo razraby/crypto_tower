@@ -1,0 +1,5 @@
+door-slam.wav
+Source: https://commons.wikimedia.org/wiki/File:Slam_closet_door_(Gravity_Sound).wav
+Original title: "slam closet door" by Gravity Sound
+License: Creative Commons Attribution 4.0
+License URL: https://creativecommons.org/licenses/by/4.0/
