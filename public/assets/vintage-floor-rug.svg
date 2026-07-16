@@ -1,0 +1,54 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Horizontal vintage floor rug in perspective</title>
+  <desc>A clean no-outline SVG illustration of a simple horizontal vintage rug lying on the floor in perspective.</desc>
+  <defs>
+    <linearGradient id="shadow" x1="480" y1="328" x2="480" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21170D" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#21170D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rug" x1="480" y1="172" x2="480" y2="442" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#793B35"/>
+      <stop offset="1" stop-color="#342024"/>
+    </linearGradient>
+    <linearGradient id="border" x1="480" y1="196" x2="480" y2="424" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67D3E"/>
+      <stop offset="1" stop-color="#5E3F1B"/>
+    </linearGradient>
+    <linearGradient id="center" x1="480" y1="238" x2="480" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#62534D"/>
+      <stop offset="1" stop-color="#2D2930"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="480" cy="430" rx="384" ry="48" fill="url(#shadow)"/>
+
+  <g>
+    <path d="M170 174H790L874 432H86L170 174Z" fill="url(#rug)"/>
+    <path d="M200 202H760L822 408H138L200 202Z" fill="url(#border)" opacity="0.92"/>
+    <path d="M230 226H730L778 388H182L230 226Z" fill="url(#rug)"/>
+    <path d="M328 264H632L672 360H288L328 264Z" fill="url(#center)" opacity="0.8"/>
+
+    <path d="M480 250L574 312L480 374L386 312L480 250Z" fill="#A67D3E" opacity="0.38"/>
+    <path d="M480 278L532 312L480 346L428 312L480 278Z" fill="#2C2930" opacity="0.42"/>
+
+    <path d="M222 226H258L210 388H174L222 226Z" fill="#D0AA61" opacity="0.16"/>
+    <path d="M738 226H702L750 388H786L738 226Z" fill="#21170D" opacity="0.14"/>
+
+    <g fill="#A67D3E" opacity="0.34">
+      <path d="M275 309L322 284L369 309L322 334L275 309Z"/>
+      <path d="M685 309L638 284L591 309L638 334L685 309Z"/>
+    </g>
+
+    <path d="M170 174H790L802 210H158L170 174Z" fill="#2B2023" opacity="0.24"/>
+    <path d="M86 432H874L842 450H118L86 432Z" fill="#2B2023" opacity="0.26"/>
+
+    <g fill="#D2B06A" opacity="0.4">
+      <rect x="98" y="428" width="42" height="14" rx="7"/>
+      <rect x="150" y="428" width="42" height="14" rx="7"/>
+      <rect x="202" y="428" width="42" height="14" rx="7"/>
+      <rect x="716" y="428" width="42" height="14" rx="7"/>
+      <rect x="768" y="428" width="42" height="14" rx="7"/>
+      <rect x="820" y="428" width="42" height="14" rx="7"/>
+    </g>
+  </g>
+</svg>

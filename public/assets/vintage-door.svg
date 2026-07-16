@@ -1,0 +1,66 @@
+<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Minimal vintage door</title>
+  <desc>A clean no-outline SVG illustration of a dark vintage wooden door with panels, brass handle, and simple old frame.</desc>
+  <defs>
+    <linearGradient id="frame" x1="160" y1="78" x2="560" y2="890" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8A642F"/>
+      <stop offset="0.48" stop-color="#5E3F1B"/>
+      <stop offset="1" stop-color="#2F2011"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="214" y1="132" x2="506" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8C5B2D"/>
+      <stop offset="0.55" stop-color="#5D391C"/>
+      <stop offset="1" stop-color="#2F1E12"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="260" y1="210" x2="460" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9B6835"/>
+      <stop offset="1" stop-color="#493018"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="408" y1="440" x2="470" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7B86D"/>
+      <stop offset="1" stop-color="#6E4A1E"/>
+    </linearGradient>
+    <radialGradient id="softShadow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 872) rotate(90) scale(54 210)">
+      <stop stop-color="#21170D" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#21170D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="360" cy="875" rx="230" ry="56" fill="url(#softShadow)"/>
+
+  <g>
+    <path d="M156 110H564V870H156V110Z" fill="url(#frame)"/>
+    <path d="M190 142H530V840H190V142Z" fill="#21170D" opacity="0.36"/>
+    <path d="M214 166H506V840H214V166Z" fill="url(#wood)"/>
+
+    <path d="M184 92H536L566 124H154L184 92Z" fill="url(#frame)"/>
+    <path d="M146 840H574L548 892H172L146 840Z" fill="#2F2011"/>
+
+    <rect x="238" y="202" width="244" height="144" rx="5" fill="url(#panel)"/>
+    <rect x="264" y="226" width="192" height="96" rx="4" fill="#B0834B" opacity="0.22"/>
+
+    <rect x="238" y="386" width="244" height="170" rx="5" fill="url(#panel)"/>
+    <rect x="265" y="414" width="190" height="114" rx="4" fill="#B0834B" opacity="0.2"/>
+
+    <path d="M238 608H482V810H238V608Z" fill="url(#panel)"/>
+    <path d="M272 641C272 614 296 598 329 598H391C424 598 448 614 448 641V758C448 785 424 802 391 802H329C296 802 272 785 272 758V641Z" fill="#5F3C20"/>
+    <path d="M304 658C304 638 317 627 336 627H384C403 627 416 638 416 658V743C416 763 403 775 384 775H336C317 775 304 763 304 743V658Z" fill="#9A6733" opacity="0.26"/>
+
+    <path d="M214 166H244V840H214V166Z" fill="#2D1D11" opacity="0.28"/>
+    <path d="M476 166H506V840H476V166Z" fill="#2D1D11" opacity="0.28"/>
+    <path d="M238 360H482V382H238V360Z" fill="#2D1D11" opacity="0.32"/>
+    <path d="M238 574H482V598H238V574Z" fill="#2D1D11" opacity="0.32"/>
+
+    <rect x="426" y="390" width="34" height="204" rx="17" fill="#2F2011" opacity="0.32"/>
+    <rect x="432" y="404" width="22" height="176" rx="11" fill="url(#brass)"/>
+    <circle cx="443" cy="404" r="18" fill="url(#brass)"/>
+    <circle cx="443" cy="580" r="18" fill="url(#brass)"/>
+    <rect x="438" y="426" width="10" height="132" rx="5" fill="#F0D48A" opacity="0.28"/>
+    <circle cx="443" cy="404" r="7" fill="#2F2011" opacity="0.42"/>
+    <circle cx="443" cy="580" r="7" fill="#2F2011" opacity="0.42"/>
+
+    <rect x="217" y="180" width="12" height="116" rx="6" fill="#1F1712" opacity="0.32"/>
+    <rect x="217" y="398" width="12" height="116" rx="6" fill="#1F1712" opacity="0.3"/>
+    <rect x="217" y="682" width="12" height="116" rx="6" fill="#1F1712" opacity="0.3"/>
+  </g>
+</svg>

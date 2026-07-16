@@ -30,6 +30,7 @@ const ASSETS = {
   rug: '/assets/vintage-floor-rug.svg',
   painting: '/assets/vintage-painting-text.svg',
   chandelier: '/assets/vintage-chandelier-transparent.gif',
+  chandelierPoster: '/assets/vintage-chandelier.svg',
   door: '/assets/vintage-door.svg',
   keypadLock: '/assets/vintage-keypad-lock.svg',
   caesarBust: '/assets/caesar_bust_new.png',
@@ -643,7 +644,12 @@ export default function StudyViewCanvas({
       drawHitOutline(ctx, { x: 370, y: 136, w: 112, h: 116 }, activeRiddle === 'caesar', caesarSolved);
       drawImageFixedHeight(ctx, images.caesarBust, 425, 270, 82, 144);
 
-      drawChandelierFrame(ctx, getAnimatedGifFrame(chandelierFramesRef.current, performance.now() - sceneStartedAtRef.current));
+      const chandelierFrame = getAnimatedGifFrame(chandelierFramesRef.current, performance.now() - sceneStartedAtRef.current);
+      if (chandelierFrame) {
+        drawChandelierFrame(ctx, chandelierFrame);
+      } else {
+        drawImageFit(ctx, images.chandelierPoster, CHANDELIER_RECT.x, CHANDELIER_RECT.y, CHANDELIER_RECT.w, CHANDELIER_RECT.h, 0.95);
+      }
 
       ctx.restore();
       animationId = window.requestAnimationFrame(render);

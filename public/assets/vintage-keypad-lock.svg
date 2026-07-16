@@ -1,0 +1,85 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Minimal numeric keypad lock</title>
+  <desc>A clean no-outline SVG sprite of a classic numeric keypad lock with ten buttons.</desc>
+  <defs>
+    <linearGradient id="case" x1="220" y1="80" x2="500" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5E625D"/>
+      <stop offset="0.52" stop-color="#343733"/>
+      <stop offset="1" stop-color="#1F211F"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="250" y1="130" x2="470" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B8E86"/>
+      <stop offset="1" stop-color="#3A3D39"/>
+    </linearGradient>
+    <linearGradient id="button" x1="280" y1="300" x2="440" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B4B6AD"/>
+      <stop offset="1" stop-color="#5A5D57"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="284" y1="158" x2="436" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#273229"/>
+      <stop offset="1" stop-color="#111713"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 640) rotate(90) scale(42 155)">
+      <stop stop-color="#21170D" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#21170D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="360" cy="640" rx="168" ry="42" fill="url(#shadow)"/>
+
+  <g>
+    <rect x="224" y="82" width="272" height="552" rx="34" fill="url(#case)"/>
+    <rect x="246" y="110" width="228" height="496" rx="24" fill="#1A1C1A" opacity="0.38"/>
+    <rect x="262" y="126" width="196" height="464" rx="18" fill="url(#bezel)"/>
+
+    <rect x="284" y="158" width="152" height="72" rx="10" fill="url(#screen)"/>
+    <rect x="304" y="181" width="112" height="12" rx="6" fill="#88A078" opacity="0.62"/>
+    <rect x="325" y="204" width="70" height="8" rx="4" fill="#88A078" opacity="0.38"/>
+
+    <g fill="url(#button)">
+      <rect x="281" y="270" width="58" height="58" rx="14"/>
+      <rect x="331" y="270" width="58" height="58" rx="14"/>
+      <rect x="381" y="270" width="58" height="58" rx="14"/>
+
+      <rect x="281" y="342" width="58" height="58" rx="14"/>
+      <rect x="331" y="342" width="58" height="58" rx="14"/>
+      <rect x="381" y="342" width="58" height="58" rx="14"/>
+
+      <rect x="281" y="414" width="58" height="58" rx="14"/>
+      <rect x="331" y="414" width="58" height="58" rx="14"/>
+      <rect x="381" y="414" width="58" height="58" rx="14"/>
+
+      <rect x="331" y="486" width="58" height="58" rx="14"/>
+    </g>
+
+    <g opacity="0.24" fill="#E7E9DF">
+      <rect x="290" y="278" width="40" height="10" rx="5"/>
+      <rect x="340" y="278" width="40" height="10" rx="5"/>
+      <rect x="390" y="278" width="40" height="10" rx="5"/>
+      <rect x="290" y="350" width="40" height="10" rx="5"/>
+      <rect x="340" y="350" width="40" height="10" rx="5"/>
+      <rect x="390" y="350" width="40" height="10" rx="5"/>
+      <rect x="290" y="422" width="40" height="10" rx="5"/>
+      <rect x="340" y="422" width="40" height="10" rx="5"/>
+      <rect x="390" y="422" width="40" height="10" rx="5"/>
+      <rect x="340" y="494" width="40" height="10" rx="5"/>
+    </g>
+
+    <g fill="#242622" opacity="0.26">
+      <circle cx="310" cy="308" r="8"/>
+      <circle cx="360" cy="308" r="8"/>
+      <circle cx="410" cy="308" r="8"/>
+      <circle cx="310" cy="380" r="8"/>
+      <circle cx="360" cy="380" r="8"/>
+      <circle cx="410" cy="380" r="8"/>
+      <circle cx="310" cy="452" r="8"/>
+      <circle cx="360" cy="452" r="8"/>
+      <circle cx="410" cy="452" r="8"/>
+      <circle cx="360" cy="524" r="8"/>
+    </g>
+
+    <circle cx="360" cy="574" r="9" fill="#88A078" opacity="0.62"/>
+    <circle cx="330" cy="574" r="6" fill="#2A2C29" opacity="0.7"/>
+    <circle cx="390" cy="574" r="6" fill="#2A2C29" opacity="0.7"/>
+  </g>
+</svg>

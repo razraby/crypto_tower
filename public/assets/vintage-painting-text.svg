@@ -1,0 +1,49 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Dark vintage framed text painting</title>
+  <desc>A dark vintage framed minimal painting with abstract dark text blocks inside.</desc>
+  <defs>
+    <linearGradient id="frame" x1="148" y1="108" x2="572" y2="612" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8A642F"/>
+      <stop offset="0.48" stop-color="#5E3F1B"/>
+      <stop offset="1" stop-color="#2F2011"/>
+    </linearGradient>
+    <linearGradient id="innerFrame" x1="199" y1="159" x2="521" y2="561" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A67D3E"/>
+      <stop offset="1" stop-color="#4A3015"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="226" y1="186" x2="494" y2="534" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8B9B2"/>
+      <stop offset="1" stop-color="#74766F"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 350) rotate(90) scale(210 165)">
+      <stop stop-color="#D7D9D2" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#D7D9D2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <path d="M148 108H572V612H148V108Z" fill="url(#frame)"/>
+  <path d="M178 138H542V582H178V138Z" fill="#21170D" opacity="0.46"/>
+  <path d="M199 159H521V561H199V159Z" fill="url(#innerFrame)"/>
+  <path d="M226 186H494V534H226V186Z" fill="url(#paper)"/>
+  <path d="M226 186H494V534H226V186Z" fill="#4F524E" opacity="0.16"/>
+  <ellipse cx="360" cy="350" rx="138" ry="190" fill="url(#mist)"/>
+
+  <g fill="#2D302C" opacity="0.74">
+    <rect x="282" y="252" width="156" height="14" rx="4"/>
+    <rect x="300" y="283" width="120" height="10" rx="3"/>
+    <rect x="270" y="324" width="180" height="12" rx="4"/>
+    <rect x="286" y="351" width="148" height="10" rx="3"/>
+    <rect x="260" y="378" width="200" height="10" rx="3"/>
+    <rect x="276" y="405" width="168" height="10" rx="3"/>
+    <rect x="296" y="432" width="128" height="10" rx="3"/>
+  </g>
+
+  <g fill="#2D302C" opacity="0.42">
+    <rect x="305" y="228" width="110" height="8" rx="3"/>
+    <rect x="282" y="462" width="156" height="8" rx="3"/>
+    <rect x="316" y="486" width="88" height="8" rx="3"/>
+  </g>
+
+  <path d="M178 138C226 154 494 154 542 138L521 159H199L178 138Z" fill="#A67D3E" opacity="0.28"/>
+  <path d="M178 582C226 566 494 566 542 582L521 561H199L178 582Z" fill="#21170D" opacity="0.42"/>
+</svg>
