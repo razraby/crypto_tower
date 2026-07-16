@@ -8,14 +8,14 @@ Crypto Tower
 - Браузер с поддержкой ES-модулей, Web Audio API и современных CSS-возможностей: актуальные версии Chrome, Edge, Firefox или Safari.
 ## 🚀 Как запустить
 1. Клонируйте репозиторий:
-git clone https://github.com/razraby/crypto_tower.git
-cd crypto_tower
+`git clone https://github.com/razraby/crypto_tower.git
+cd crypto_tower`
 2. Установите зависимости:
-npm install
+`npm install`
 3. Соберите проект:
-npm build
+`npm run build`
 4. Запустите проект:
-npm run preview
+`npm run preview`
 
 После запуска приложение будет доступно по адресу:
 http://localhost:3000
